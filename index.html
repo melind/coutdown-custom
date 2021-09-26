@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./style/css/app.css">
+  <title>Frontend Mentor | Launch countdown timer</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipcountdown/3.0.5/jquery.flipcountdown.css" integrity="sha512-RSDtAeASjdms/QNUSt7qzCjtmdFVtw3pOScVghEbfGzGh/rMxKSyUuY5jtvqgOLKfkzMX68EWm4u1Vu2PwuvyQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+         <header>
+           <div>  We're launching soon LAUNCHING</div>
+         </header>
+         
+
+                      <main class="img" ><img id="img1" src="./images/bg-stars.svg"/>
+
+                        <div class="card">
+
+                           <div class="digits recto " id="seconds">
+                     
+                                    <div class="circle left"></div><div class="circle right"></div>
+
+                                    <div class="flip top" id="next">  
+                                    
+                                          <div class="circle left"></div><div class="circle right"></div>
+                                    
+                                    </div>
+
+                           </div>
+
+                           <div class="unit-time">  Seconds </div>
+
+                        </div>
+
+                        <div class="card">
+
+                          <div class="digits recto " id="minutes">
+                    
+                                   <div class="circle left"></div><div class="circle right"></div>
+
+                                   <div class="flip top" id="next-minutes">  
+                                   
+                                         <div class="circle left"></div><div class="circle right"></div>
+                                   
+                                   </div>
+
+                          </div>
+                          
+                          <div class="unit-time">  Minutes </div>
+
+                       </div>
+
+                        <div class="card">
+
+                          <div class="digits recto " id="hours">
+                    
+                                   <div class="circle left"></div><div class="circle right"></div>
+
+                                   <div class="flip top" id="next-hours">  
+                                   
+                                         <div class="circle left"></div><div class="circle right"></div>
+                                   
+                                   </div>
+
+                          </div>
+                          
+                          <div class="unit-time">  Hours </div>
+
+                       </div>
+
+                       <div class="card">
+
+                        <div class="digits recto " id="days">
+                  
+                                 <div class="circle left"></div><div class="circle right"></div>
+
+                                 <div class="flip top" id="next-days">  
+                                 
+                                       <div class="circle left"></div><div class="circle right"></div>
+                                 
+                                 </div>
+
+                        </div>
+                        
+                        <div class="unit-time">  Days </div>
+
+                     </div>
+
+                          <div class="chrono">
+
+                                        <div id="days"> 
+                                            <div id="days-digit" class="cadran"></div>
+                                            <div class="unit-time">  Days </div>
+                                        </div>
+                                      
+                                        <div id="hours">
+                                          <div id="hours-digit" class="cadran"></div>
+                                          <div class="unit-time">  Hours </div>
+                                        </div>
+                                      
+                                      
+                                        <div id="minutes">
+                                          <div id="minutes-digit" class="cadran"></div>
+                                          <div class="unit-time">  Minutes </div>
+                                        </div>
+
+                                        <div id="second">
+                                          <div id="seconds-digit" class="cadran"></div>
+                                          <div class="unit-time">  Seconds </div>
+                                        </div>
+                          
+
+                          </div>
+                          
+                         
+                          
+
+                             
+                      </main>
+
+                      
+        
+          <footer>
+            
+            <img id="img2" src="./images/pattern-hills.svg"/>
+          
+          </footer>
+
+
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">pêche melba</a>.
+    </div>
+         
+       
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flipcountdown/3.0.5/jquery.flipcountdown.js" integrity="sha512-AKLzTsVG4NYwxrijC/Cp+0dKbzJ1YSdLM0aP5JyfkgOzMSepiasJtFgilqx+H/TJIQBK8Ep6R5UIiqpT/WDkGg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script src="index.js"></script>
+</html>
