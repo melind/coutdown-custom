@@ -69,12 +69,6 @@
     }
  }
 
- @mixin sm-icon {
-    @media screen and (max-width: #{$screen-sm-max}) {
-       padding-top: 62px;
-    }
- }
-
 
  @mixin xs-digits {
     @media screen and (max-width: #{$screen-xs}) {
