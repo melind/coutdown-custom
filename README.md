@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://coutdown-custom.vercel.app/)
+- Live Site URL: [countdown-custom](https://coutdown-custom.vercel.app/)
 
 ## My process
 
