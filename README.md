@@ -27,8 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://coutdown-custom.vercel.app/)
 
 ## My process
 
@@ -41,10 +40,10 @@ Users should be able to:
 
 ### Useful resources
 
-- [resource 1](https://codepen.io/jerrylow/pen/jVoWwp?editors=0110) 
-- [ resource 2](https://codepen.io/shshaw/pen/BzObXp) 
+- [resource 1](https://codepen.io/jerrylow/pen/jVoWwp?editors=0110) - 3D Flip Clock Counter in Pure CSS (Rebound)
+- [ resource 2](https://codepen.io/shshaw/pen/BzObXp) - Flip clock & countdown, Vue
 
 ## Author
 
-- Website - [Add your name here](https://www.pechemelba.fr)
+- Website - [Peche melba](https://www.pechemelba.fr)
 
