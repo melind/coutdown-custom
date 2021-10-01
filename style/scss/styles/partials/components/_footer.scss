@@ -1,3 +1,8 @@
+.footer {
+  border: red 2px solid;
+ 
+}
+
 .img {
     /*height: 100%;*/
   }
@@ -7,7 +12,31 @@
     position: relative;*/
   }
   #img2 {
-    /*height: 99.5%;
-    width: 100%;
-    position: relative;*/
+    background-image: url('../../images/pattern-hills.svg');
+    height: 200px;
+    background-repeat: no-repeat;
+   	background-size: cover;
+    text-align: center;
+    letter-spacing: 25px;
+    vertical-align: text-bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    @include sm-img2;
+    padding-top: 72px;
+  }
+  
+#img2 > div > a {
+ 
+
+}
+
+#img2 > div > a:hover {
+
+  filter: grayscale(0)  hue-rotate(95deg) saturate(3.45);
+
+}
+  .attribution{
+    color: $White;
   }

@@ -1,0 +1,110 @@
+@mixin xl {
+    @media screen and (min-width: #{$screen-xl-min}) {
+       height: 600px;
+    }
+ }
+
+ @mixin sm {
+    @media screen and (max-width: #{$screen-sm-max}) {
+        height: 400px;
+    }
+ }
+
+ @mixin m-digits {
+    @media screen and (max-width: #{$screen-m-max}) {
+       height: 150px;
+       width: 140px;
+       font-size: 70px;
+       padding-top: 37px;
+    }
+ }
+
+ @mixin m-digits-before {
+    @media screen and (max-width: #{$screen-m-max}) {
+       height: 75px;
+    }
+ }
+
+
+ @mixin sm-digits {
+    @media screen and (max-width: #{$screen-sm-max}) {
+       height: 100px;
+       width: 85px;
+       font-size: 50px;
+       padding-top: 20px;
+    }
+ }
+
+ @mixin sm-digits-before {
+    @media screen and (max-width: #{$screen-sm-max}) {
+       height: 50px;
+    }
+ }
+
+ @mixin sm-card {
+    @media screen and (max-width: #{$screen-sm-max}) {
+       width: 100px;
+    }
+ }
+ @mixin sm-circle {
+    @media screen and (max-width: #{$screen-sm-max}) {
+       height: 8px;
+       width: 10px;
+       top: 44%;
+    }
+ }
+ @mixin sm-flip {
+    @media screen and (max-width: #{$screen-sm-max}) {
+       padding-top: 15px;
+    }
+ }
+ @mixin sm-unit-time {
+    @media screen and (max-width: #{$screen-sm-max}) {
+       font-size: 9px;
+    }
+ }
+ @mixin sm-img2 {
+    @media screen and (max-width: #{$screen-sm-max}) {
+       background-position-x: -849px;
+    }
+ }
+
+ @mixin sm-icon {
+    @media screen and (max-width: #{$screen-sm-max}) {
+       padding-top: 62px;
+    }
+ }
+
+
+ @mixin xs-digits {
+    @media screen and (max-width: #{$screen-xs}) {
+       height: 75px;
+       width: 63px;
+       font-size: 32px;
+       padding-top: 18px;
+    }
+ }
+
+ @mixin xs-digits-before {
+    @media screen and (max-width: #{$screen-sm-max}) {
+       height: 38px;
+    }
+ }
+
+ @mixin xs-card {
+    @media screen and (max-width: #{$screen-xs}) {
+       width: 76px;
+    }
+ }
+
+ @mixin xs-flip {
+    @media screen and (max-width: #{$screen-xs}) {
+        padding-top: 14px;
+    }
+ }
+
+ @mixin xs-unit-time {
+    @media screen and (max-width: #{$screen-sm-max}) {
+       font-size: 6px;
+    }
+ }

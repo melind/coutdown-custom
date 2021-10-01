@@ -1,7 +1,7 @@
 
 
 
-let countDownDate = new Date("Sep 27, 2021 04:29:25").getTime();
+let countDownDate = new Date("Sep 30, 2022 04:29:25").getTime();
 const switch_minutes = [];
 const switch_hours = [];
 const switch_days = [];
@@ -24,11 +24,11 @@ function countDown() {
 
 
 //document.getElementById('chrono').innerHTML = (days + ' ' + hours + ' ' + minutes+ ' ' + seconds );
-document.getElementById('days-digit').innerHTML = (days);
-document.getElementById('hours-digit').innerHTML = (hours);
-document.getElementById('minutes-digit').innerHTML = (minutes);
-document.getElementById('seconds-digit').innerHTML = (seconds);
-
+//document.getElementById('days-digit').innerHTML = (days);
+//document.getElementById('hours-digit').innerHTML = (hours);
+//document.getElementById('minutes-digit').innerHTML = (minutes);
+//document.getElementById('seconds-digit').innerHTML = (seconds);
+//
 //console.log(days,hours,minutes)
 /** ADD ATTRIBUT DATA SECONDS */
 let att = document.getElementById('seconds');
@@ -125,7 +125,7 @@ let switch_days_number = Number(days -1);
         
         }
 
-
+console.log(gap<0)
       if (gap < 0) {
         clearInterval(interval);
       

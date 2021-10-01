@@ -1,3 +1,15 @@
-header {
+.header {
+    /*border: aqua 2px solid;*/
     color: $White;
+    font-weight: 700;
+    font-size: 20px;
+    height: 200px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 26px;
 }
+
