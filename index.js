@@ -1,7 +1,7 @@
 
 
 
-let countDownDate = new Date("Sep 30, 2022 04:29:25").getTime();
+let countDownDate = new Date("Sep 30, 2024 04:29:25").getTime();
 const switch_minutes = [];
 const switch_hours = [];
 const switch_days = [];
